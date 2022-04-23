@@ -1,0 +1,43 @@
+.navbar {
+  list-style-type: none;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.navbar .navlink {
+  float: left;
+}
+
+.navbar .navlink.right {
+  float: right;
+}
+
+.navlink .btn-link {
+  display: inline-block;
+  padding: 14px 16px;
+  cursor: pointer;
+  background: transparent;
+  color: hsl(257, 7%, 63%);
+  border: none;
+  font-size: 14px;
+}
+
+.navlink .btn-link:hover {
+  text-decoration: underline;
+  color: hsl(255, 11%, 22%);
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: block;
+    position: relative;
+  }
+
+  .collapse {
+    display: none;
+  }
+}

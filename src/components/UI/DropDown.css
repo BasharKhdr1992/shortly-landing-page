@@ -1,0 +1,30 @@
+.dropdown {
+  width: 80%;
+  position: absolute;
+  height: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  top: 10%;
+  left: 10%;
+  background-color: hsl(257, 27%, 26%);
+}
+
+.dd-list {
+  list-style-type: none;
+}
+
+.dd-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.dd-link:hover {
+  color: hsl(0, 0%, 75%);
+}

@@ -1,0 +1,30 @@
+.loader {
+  border: 16px solid hsl(0, 0%, 90%);
+  border-radius: 50%;
+  border-top: 16px solid hsl(180, 66%, 49%);
+  margin-top: 20p;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

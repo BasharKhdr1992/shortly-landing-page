@@ -1,0 +1,17 @@
+.shorten-component-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 75%);
+  align-items: center;
+  margin-top: 120px;
+}
+
+p.error_message {
+  color: hsl(0, 87%, 67%);
+  text-align: center;
+}
+
+.loader-container {
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+button.primary {
+  border-radius: 12px;
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(42, 207, 207);
+  border: none;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background-color: rgba(42, 207, 207, 0.7);
+  text-decoration: none;
+}
+
+.btn-form {
+  padding: 14px 16px;
+}
+
+.block {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .btn-form {
+    width: 90%;
+  }
+}
