@@ -1,10 +1,10 @@
 .shorten-form {
   width: 70%;
-  height: 20vh;
   display: flex;
+  height: 20vh;
   flex-direction: row;
   align-items: center;
-  border-radius: 24px;
+  border-radius: 12px;
   transform: translateY(-50%);
   background-color: hsl(257, 27%, 26%);
   justify-content: space-around;
@@ -15,6 +15,9 @@
 @media screen and (max-width: 900px) {
   .shorten-form {
     width: 90%;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
     flex-direction: column;
     background-image: url('../../assets/bg-shorten-mobile.svg');
   }

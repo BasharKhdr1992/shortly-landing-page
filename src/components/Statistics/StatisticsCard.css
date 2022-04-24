@@ -17,6 +17,7 @@
 .stats-card img {
   border-radius: 50%;
   padding: 20px;
+  width: 40px;
   background-color: hsl(257, 27%, 26%);
   transform: translateY(-60%);
 }
@@ -37,6 +38,17 @@
     margin-top: 0;
     margin-bottom: 40px;
   }
+  .stats-card img {
+    transform: translate(170px, -60%);
+  }
+
+  .stats-card h1,
+  .stats-card p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .stats-card img {
     transform: translate(140px, -60%);
   }

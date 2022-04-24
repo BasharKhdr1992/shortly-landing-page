@@ -21,6 +21,10 @@ button.primary:hover {
   display: block;
 }
 
+.mt {
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 900px) {
   .btn-form {
     width: 90%;

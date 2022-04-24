@@ -31,7 +31,7 @@ const ShortenForm = ({ submitForm }) => {
         onChange={handleInputChange}
         value={url}
       />
-      <Button className={'btn-form'} onClick={handleClick}>
+      <Button className={'btn-form mt'} onClick={handleClick}>
         Shorten it
       </Button>
     </div>
