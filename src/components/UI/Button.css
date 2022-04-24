@@ -17,6 +17,7 @@ button.primary:hover {
 
 .block {
   width: 100%;
+  padding: 14px 16px;
   display: block;
 }
 

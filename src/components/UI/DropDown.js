@@ -23,7 +23,7 @@ const DropDown = () => {
           <button className="dd-link">Login</button>
         </li>
         <li>
-          <Button className={'block btn-form'}>Sign up</Button>
+          <Button className={'block'}>Sign up</Button>
         </li>
       </ul>
     </div>
