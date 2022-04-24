@@ -7,7 +7,9 @@ const StatisticsCard = ({ card, marginTop, line }) => {
     <div className="stats-card-wrapper" style={{ marginTop }}>
       {line && <Line />}
       <div className="stats-card">
-        <img src={card.icon} alt={card.title} />
+        <div class="card-img-wrapper">
+          <img src={card.icon} alt={card.title} />
+        </div>
         <h1>{card.title}</h1>
         <p>{card.description}</p>
       </div>
