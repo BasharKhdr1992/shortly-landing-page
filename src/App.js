@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Appendix from './components/footer/Appendix';
 import Footer from './components/footer/Footer';
 import Intro from './components/Intro/Intro';
 import Navigation from './components/Navigation/Navigation';
@@ -12,6 +13,7 @@ const App = () => {
       <Intro />
       <ShortenComponent />
       <Footer />
+      <Appendix />
     </div>
   );
 };

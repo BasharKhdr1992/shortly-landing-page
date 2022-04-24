@@ -64,6 +64,25 @@
   justify-content: space-evenly;
 }
 
+.attribution {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: hsl(257, 7%, 63%);
+  font-size: 11px;
+  background-color: hsl(260, 8%, 14%);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(180, 66%, 49%);
+}
+
+.attribution button {
+  border: none;
+  background: transparent;
+  color: hsl(228, 45%, 44%);
+}
+
 @media screen and (max-width: 900px) {
   .footer {
     align-items: center;
