@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer">
         <button className="btn-link footer-logo">Shortly</button>
         <div className="footer-nav">
-          <h3>Features</h3>
+          <h2>Features</h2>
           <div className="footer-nav-links">
             <button className="btn-link">Link Shortening</button>
             <button className="btn-link">Branded Links</button>
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-nav">
-          <h3>Resources</h3>
+          <h2>Resources</h2>
           <div className="footer-nav-links">
             <button className="btn-link">Blog</button>
             <button className="btn-link">Developers</button>
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-nav">
-          <h3>Company</h3>
+          <h2>Company</h2>
           <div className="footer-nav-links">
             <button className="btn-link">About</button>
             <button className="btn-link">Our Team</button>
